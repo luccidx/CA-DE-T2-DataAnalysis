@@ -1,0 +1,10 @@
+Branch,Payment,Types_of_payment_in_each_branch
+A,Cash,110
+A,"Credit card",104
+A,Ewallet,126
+B,Cash,110
+B,"Credit card",109
+B,Ewallet,113
+C,Cash,124
+C,"Credit card",98
+C,Ewallet,106
