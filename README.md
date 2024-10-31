@@ -109,16 +109,14 @@ CREATE TABLE `new_sales_data` (
   ```
   *OUTPUT*:
   ![img_11.png](./Images/img_11.png)
-<br>
-<br>
+
 - **Query 2:** Count the total number of records in the dataset.
     ```sql
         SELECT COUNT(*) FROM new_sales_data;
     ```
     *OUTPUT*:
     ![img_12.png](./Images/img_12.png)
-<br>
-<br>
+
 - **Query 3:** Find the total sales per Gender.
   ```sql
   SELECT Gender, ROUND(SUM(total),2) as total_sales
@@ -127,8 +125,7 @@ CREATE TABLE `new_sales_data` (
   ```
     *OUTPUT*:
     ![img_13.png](./Images/img_13.png)
-<br>
-<br>
+
 - **Query 4:** Find the average rating of all sales.
   ```sql
   SELECT ROUND(AVG(Rating),2) as avg_rating
@@ -136,8 +133,7 @@ CREATE TABLE `new_sales_data` (
   ```
     *OUTPUT*:
     ![img_14.png](./Images/img_14.png)
-<br>
-<br>
+
 - **Query 5:** Count of Payment types in each branch.
   ```sql
   SELECT Branch, Payment, COUNT(Payment) as Types_of_payment_in_each_branch
@@ -147,8 +143,7 @@ CREATE TABLE `new_sales_data` (
   ```
     *OUTPUT*:
     ![img_15.png](./Images/img_15.png)
-<br>
-<br>
+
 - **Query 6:** Find distinct products with a unit price more than 45.
 - ```sql
   SELECT DISTINCT `Product line`
